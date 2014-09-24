@@ -12,13 +12,15 @@ public class TodoList {
 	}
 
 	public Collection<Todo> getTodos() {
-		// TODO Auto-generated method stub
 		return todoList;
 	}
 
 	public void addTodo(Todo todoItem) {
 		todoList.add(todoItem);
-		
+	}
+
+	public void removeTodo(Todo todoItem) {
+		todoList.remove(todoItem);
 	}
 
 }
